@@ -1,0 +1,7 @@
+Time,Location Name,Address,Cuisine,Travel Time,Travel Distance,Transportation Type,Longitude,Latitude,Day
+10:00 AM,ClusterTruck,"729 N Pennsylvania St, Indianapolis, IN 46204, USA",Cuisine 1,20 min,0.7 miles,Walk,-86.1583,39.7726,1
+3:00 PM,T Street Eatz,"City Market, 222 E Market St, Indianapolis, IN 46204, USA",Cuisine 2,18 min,0.8 miles,Walk,-86.1524,39.7752,1
+8:30 PM,Tha Corn Man,"2442 Central Ave, Indianapolis, IN 46205, USA",Corn,8 min,2.5 miles,Car,-86.1496,39.8017,1
+12:00 PM,El Amigo Taqueria Food Truck,"3356 W 16th St, Indianapolis, IN 46222, USA",Taqueria,13 min,4.1 miles,Car,-86.2162,39.7885,2
+5:00 PM,Taqueria Mi Costa,"1430 W Washington St, Indianapolis, IN 46222, USA",Taqueria,7 min,3 miles,Car,-86.1857,39.7726,2
+10:00 PM,FELIX TACOS TRUCK,"3145 W Washington St, Indianapolis, IN 46222, USA",Tacos,4 min,1.4 miles,Car,-86.2123,39.7633,2

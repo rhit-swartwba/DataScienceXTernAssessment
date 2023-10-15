@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f46505e265f741bb617e23ece5736a33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f46505e265f741bb617e23ece5736a33" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f46505e265f741bb617e23ece5736a33 = L.map(
+                "map_f46505e265f741bb617e23ece5736a33",
+                {
+                    center: [39.7684, -86.1581],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5e2ae52039b927b6399e6d4dcdc9fc34 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_f66d0ccbd0f556ed303fc3453aa9e845 = L.marker(
+                [39.7684, -86.1581],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var icon_6a8f68c5962f492fba7af716da43aa03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f66d0ccbd0f556ed303fc3453aa9e845.setIcon(icon_6a8f68c5962f492fba7af716da43aa03);
+        
+    
+        var popup_d974b4e009311d416f3a667746316745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6eb85bc83f23098d9927c94651f447b4 = $(`<div id="html_6eb85bc83f23098d9927c94651f447b4" style="width: 100.0%; height: 100.0%;">Starting Location</div>`)[0];
+                popup_d974b4e009311d416f3a667746316745.setContent(html_6eb85bc83f23098d9927c94651f447b4);
+            
+        
+
+        marker_f66d0ccbd0f556ed303fc3453aa9e845.bindPopup(popup_d974b4e009311d416f3a667746316745)
+        ;
+
+        
+    
+    
+            var marker_e6019afa2df6f2bef8be24bcd00b3051 = L.marker(
+                [39.7726, -86.1583],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_0436c49f5fddc6b6a0026d4ba26b203c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_237d3e28672d87f4a0a02cf602a330ec = $(`<div id="html_237d3e28672d87f4a0a02cf602a330ec" style="width: 100.0%; height: 100.0%;">Day 1<br>ClusterTruck<br>Type: Walk<br>Travel Time: 20 min<br>Travel Distance: 0.7 miles</div>`)[0];
+                popup_0436c49f5fddc6b6a0026d4ba26b203c.setContent(html_237d3e28672d87f4a0a02cf602a330ec);
+            
+        
+
+        marker_e6019afa2df6f2bef8be24bcd00b3051.bindPopup(popup_0436c49f5fddc6b6a0026d4ba26b203c)
+        ;
+
+        
+    
+    
+            var poly_line_dd97db42156eab6d289aeedaf2d069bd = L.polyline(
+                [[39.7684, -86.1581], [39.7726, -86.1583]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_97964b297b47a181b9dd53b547937b3d = L.marker(
+                [39.7752, -86.1524],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_5249c764319d16c2b6a52535ea1c74c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30f045eba284a70284cf9d938de54588 = $(`<div id="html_30f045eba284a70284cf9d938de54588" style="width: 100.0%; height: 100.0%;">Day 1<br>T Street Eatz<br>Type: Walk<br>Travel Time: 18 min<br>Travel Distance: 0.8 miles</div>`)[0];
+                popup_5249c764319d16c2b6a52535ea1c74c6.setContent(html_30f045eba284a70284cf9d938de54588);
+            
+        
+
+        marker_97964b297b47a181b9dd53b547937b3d.bindPopup(popup_5249c764319d16c2b6a52535ea1c74c6)
+        ;
+
+        
+    
+    
+            var poly_line_c1686ffcae46da4620faa4034a909eb2 = L.polyline(
+                [[39.7726, -86.1583], [39.7752, -86.1524]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_de3f30a5f4d022dd71c6ed29fa4bb17e = L.marker(
+                [39.8017, -86.1496],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_2e859bbdf4771a079bda6f4eaab3d683 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b662d9b30eb8c1483551595993120f9 = $(`<div id="html_2b662d9b30eb8c1483551595993120f9" style="width: 100.0%; height: 100.0%;">Day 1<br>Tha Corn Man<br>Type: Car<br>Travel Time: 8 min<br>Travel Distance: 2.5 miles</div>`)[0];
+                popup_2e859bbdf4771a079bda6f4eaab3d683.setContent(html_2b662d9b30eb8c1483551595993120f9);
+            
+        
+
+        marker_de3f30a5f4d022dd71c6ed29fa4bb17e.bindPopup(popup_2e859bbdf4771a079bda6f4eaab3d683)
+        ;
+
+        
+    
+    
+            var poly_line_4fa490605832a150748a78cab09ce1af = L.polyline(
+                [[39.7752, -86.1524], [39.8017, -86.1496]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_40883044b35991bc40c4742ff4dfc573 = L.marker(
+                [39.7885, -86.2162],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_5dcd70d2121b76c2b88ae9fa797b22cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80ebbafd2b571c7dc922672da99ed304 = $(`<div id="html_80ebbafd2b571c7dc922672da99ed304" style="width: 100.0%; height: 100.0%;">Day 2<br>El Amigo Taqueria Food Truck<br>Type: Car<br>Travel Time: 13 min<br>Travel Distance: 4.1 miles</div>`)[0];
+                popup_5dcd70d2121b76c2b88ae9fa797b22cf.setContent(html_80ebbafd2b571c7dc922672da99ed304);
+            
+        
+
+        marker_40883044b35991bc40c4742ff4dfc573.bindPopup(popup_5dcd70d2121b76c2b88ae9fa797b22cf)
+        ;
+
+        
+    
+    
+            var poly_line_d2ecab754fe8afb085e0ff36addd9170 = L.polyline(
+                [[39.7684, -86.1581], [39.7885, -86.2162]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_e629a2d32d1310d5ab4e1dda9c1bdb69 = L.marker(
+                [39.7726, -86.1857],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_e349d6e12ed8d57edd63ff5527e77901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b9187e0d3339f1c3ac538dc02de365d = $(`<div id="html_5b9187e0d3339f1c3ac538dc02de365d" style="width: 100.0%; height: 100.0%;">Day 2<br>Taqueria Mi Costa<br>Type: Car<br>Travel Time: 7 min<br>Travel Distance: 3 miles</div>`)[0];
+                popup_e349d6e12ed8d57edd63ff5527e77901.setContent(html_5b9187e0d3339f1c3ac538dc02de365d);
+            
+        
+
+        marker_e629a2d32d1310d5ab4e1dda9c1bdb69.bindPopup(popup_e349d6e12ed8d57edd63ff5527e77901)
+        ;
+
+        
+    
+    
+            var poly_line_526bf0148e52d0a7c02c09577fab75ee = L.polyline(
+                [[39.7885, -86.2162], [39.7726, -86.1857]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+            var marker_3d10cdc29e1eb00b9445f1bb53b17a59 = L.marker(
+                [39.7633, -86.2123],
+                {}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+    
+        var popup_7794981383db6b2d01bfa9da1e22c4ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e44893fa6eacc75fcb4c4280fae7b88e = $(`<div id="html_e44893fa6eacc75fcb4c4280fae7b88e" style="width: 100.0%; height: 100.0%;">Day 2<br>FELIX TACOS TRUCK<br>Type: Car<br>Travel Time: 4 min<br>Travel Distance: 1.4 miles</div>`)[0];
+                popup_7794981383db6b2d01bfa9da1e22c4ec.setContent(html_e44893fa6eacc75fcb4c4280fae7b88e);
+            
+        
+
+        marker_3d10cdc29e1eb00b9445f1bb53b17a59.bindPopup(popup_7794981383db6b2d01bfa9da1e22c4ec)
+        ;
+
+        
+    
+    
+            var poly_line_20bba0130deea678f780edfacce4be58 = L.polyline(
+                [[39.7726, -86.1857], [39.7633, -86.2123]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f46505e265f741bb617e23ece5736a33);
+        
+</script>
+</html>
